@@ -13,8 +13,8 @@
 <img align="right" height="150" src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHFmbGJneDM3czhtenJlbHI5MHhobjhudWJlZDluZnloMmNkNHl2biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oKIPnAiaMCws8nOsE/giphy.gif"  />
 
 ###
-
-<div align="left">
+<h3 align="center">Les langages de programmations que j'utilise </h3>
+<div align="center">
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="30" alt="javascript logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
@@ -57,8 +57,8 @@
 </div>
 
 ###
-
-<div align="left">
+<h3 align="center">Mes différents réseaux sociaux 😊</h3>
+<div align="center">
   <a href="illluminationn" target="_blank">
     <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord logo"  />
   </a>
