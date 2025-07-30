@@ -1,4 +1,3 @@
-````markdown name=README.md
 <h1 align="center">👋 Bonjour, moi c'est Fabio GUERREIRO MARQUES !</h1>
 <h3 align="center">Gestionnaire de Données à la DIRISI | Développeur passionné 🚀</h3>
 
@@ -76,4 +75,3 @@
 <p align="center">
   <strong>Merci de votre visite et au plaisir d'échanger ! 😊</strong>
 </p>
-````
