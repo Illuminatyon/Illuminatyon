@@ -10,7 +10,7 @@
 ## 🙋‍♂️ À propos de moi
 
 - 🔎 Je m'appelle **Fabio GUERREIRO MARQUES**
-- 💼 **Gestionnaire de Données** à la DIRISI
+- 💼 **Gestionnaire de Données** à la CND
 - 👨‍💻 Développeur passionné, toujours avide d'apprendre et de partager mes connaissances
 - 🌍 Basé en France
 
