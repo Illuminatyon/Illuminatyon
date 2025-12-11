@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>3D GitHub Contributions — Illuminatyon</title>
+  <style>
+    html,body{height:100%;margin:0;background:#0d1117;color:#c9d1d9;font-family:Inter,system-ui,Segoe UI,Roboto,Arial}
+    #info{position:fixed;left:12px;top:12px;z-index:10;background:rgba(2,6,23,0.6);padding:10px;border-radius:8px}
+    #canvas-container{width:100%;height:100vh;display:block}
+    a { color: #58a6ff }
+    #loader{position:fixed;right:12px;top:12px;background:rgba(2,6,23,0.6);padding:8px;border-radius:8px}
+  </style>
+</head>
+<body>
+  <div id="info">
+    <strong>3D Contributions Viewer</strong>
+    <div>Author: <em>Illuminatyon</em></div>
+    <div>Controls: Drag to rotate, scroll to zoom, double-click to reset</div>
+    <div><a href="https://github.com/Illuminatyon/Illuminatyon">Open repo</a></div>
+  </div>
+  <div id="loader">Loading contributions...</div>
+  <div id="canvas-container"></div>
+
+  <!-- three.js from CDN -->
+  <script src="https://unpkg.com/three@0.154.0/build/three.min.js"></script>
+  <script src="https://unpkg.com/three@0.154.0/examples/js/controls/OrbitControls.js"></script>
+
+  <script>
+    // Config
+    const username = 'Illuminatyon';
+    const container = document.getElementById('canvas-container');
+    const loaderEl = document.getElementById('loader');
+
+    // Scene setup
+    const scene = new THREE.Scene();
+    scene.background = new THREE.Color(0x0d1117);
+    const camera = new THREE.PerspectiveCamera(45, window.innerWidth / window.innerHeight, 1, 2000);
+    camera.position.set(0, 200, 400);
+
+    const renderer = new THREE.WebGLRenderer({ antialias: true });
+    renderer.setPixelRatio(window.devicePixelRatio);
+    renderer.setSize(window.innerWidth, window.innerHeight);
+    container.appendChild(renderer.domElement);
+
+    const controls = new THREE.OrbitControls(camera, renderer.domElement);
+    controls.target.set(0, 40, 0);
+    controls.update();
+
+    // Lights
+    const hemi = new THREE.HemisphereLight(0xffffff, 0x444444, 0.6);
+    hemi.position.set(0, 200, 0);
+    scene.add(hemi);
+    const dir = new THREE.DirectionalLight(0xffffff, 0.6);
+    dir.position.set(100, 200, 100);
+    scene.add(dir);
+
+    // Ground grid
+    const grid = new THREE.GridHelper(700, 14, 0x222831, 0x111214);
+    grid.rotation.x = Math.PI/2;
+    grid.position.y = 0;
+    scene.add(grid);
+
+    // Parse contributions SVG and build cubes
+    async function fetchContributions() {
+      try {
+        const resp = await fetch(`https://github.com/users/${username}/contributions`);
+        if(!resp.ok) throw new Error('Unable to fetch contributions');
+        const svgText = await resp.text();
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(svgText, 'image/svg+xml');
+        const rects = [...doc.querySelectorAll('rect[data-count]')];
+        // Each rect has data-date and data-count
+        const data = rects.map(r => ({date: r.getAttribute('data-date'), count: +r.getAttribute('data-count')||0}));
+        return data;
+      } catch (e) {
+        console.error(e);
+        loaderEl.textContent = 'Failed to load contributions';
+        return null;
+      }
+    }
+
+    function buildGrid(data) {
+      // Map contribution dates into weeks and weekdays
+      // GitHub returns rects ordered left-to-right, top-to-bottom by week columns
+      const weeks = [];
+      for(let i=0;i<data.length;i+=7){
+        weeks.push(data.slice(i,i+7));
+      }
+      // Flatten and compute max
+      const max = Math.max(...data.map(d=>d.count),1);
+
+      const group = new THREE.Group();
+      const spacing = 6;
+      const cubeSize = 4;
+      const colorLow = new THREE.Color('#0f1724');
+      const colorHigh = new THREE.Color('#39d353');
+
+      for(let w=0; w<weeks.length; w++){
+        const week = weeks[w];
+        for(let d=0; d<week.length; d++){
+          const c = week[d];
+          const h = (c.count / max) * 40 + 1; // height based on contributions
+          const geom = new THREE.BoxGeometry(cubeSize, h, cubeSize);
+          const t = c.count / max;
+          const col = colorLow.clone().lerp(colorHigh, t);
+          const mat = new THREE.MeshStandardMaterial({color:col});
+          const mesh = new THREE.Mesh(geom, mat);
+          mesh.position.x = (w - weeks.length/2) * spacing;
+          mesh.position.z = (d - 3) * spacing;
+          mesh.position.y = h/2;
+          mesh.userData = c;
+          group.add(mesh);
+        }
+      }
+      // Center grid a bit upward
+      group.position.y = 0;
+      scene.add(group);
+      loaderEl.style.display = 'none';
+    }
+
+    // Responsive
+    window.addEventListener('resize', ()=>{
+      camera.aspect = window.innerWidth / window.innerHeight;
+      camera.updateProjectionMatrix();
+      renderer.setSize(window.innerWidth, window.innerHeight);
+    });
+
+    // Animation
+    function animate(){
+      requestAnimationFrame(animate);
+      renderer.render(scene, camera);
+    }
+    animate();
+
+    // Init
+    (async ()=>{
+      const data = await fetchContributions();
+      if(data) buildGrid(data);
+    })();
+
+    // Double-click to reset camera
+    window.addEventListener('dblclick', ()=>{
+      camera.position.set(0,200,400);
+      controls.target.set(0,40,0);
+      controls.update();
+    });
+
+  </script>
+</body>
+</html>
