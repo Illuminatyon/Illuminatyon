@@ -66,28 +66,4 @@ Je m'intéresse particulièrement à :
   <img src="https://github-profile-trophy.vercel.app/?username=Illuminatyon&theme=dark&no-frame=true&margin-w=10" alt="Trophies" />
 </p>
 
----
 
-## 3D Contributions & Commits (interactive)
-
-Tu n'as pas Spotify ni WakaTime configurés, ils ont donc été retirés. À la place, j’ai ajouté un viewer 3D interactif des contributions qui visualise le calendrier de contributions GitHub sous forme de grille 3D rotative. Le fichier HTML est autonome et peut être ouvert localement ou via GitHub Pages.
-
-Ouvre le viewer interactif ici (branche proposée) :
-- assets/3d-contribs.html — https://github.com/Illuminatyon/Illuminatyon/blob/update-readme-widgets-2025-12-11/assets/3d-contribs.html
-
-Notes importantes :
-- Le viewer récupère le SVG des contributions publiques depuis https://github.com/users/Illuminatyon/contributions ; pas de token requis pour ces données publiques.
-- Pour afficher des commits détaillés (messages, repos, dates), il faudrait appeler l'API REST de GitHub (auth requise pour éviter les limites de taux). Je peux ajouter cette surcouche si tu veux.
-- Si tu ouvres le fichier localement, il est préférable de le servir via un serveur HTTP (ex. python -m http.server) pour éviter des problèmes CORS ; il fonctionne parfaitement via GitHub Pages.
-
----
-
-## Featured Repositories
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Illuminatyon&repo=repository-name&theme=react-dark" alt="Pinned repo" />
-</p>
-
----
-
-Si tu veux d'autres widgets (commits récents, issues ouvertes, badges CI, timeline, ou overlay des commits sur la grille 3D), dis lesquels et je les intègre.
