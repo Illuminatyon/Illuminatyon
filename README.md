@@ -1,77 +1,69 @@
-<h1 align="center">👋 Bonjour, moi c'est Fabio GUERREIRO MARQUES !</h1>
-<h3 align="center">Gestionnaire de Données à la CND | Développeur passionné 🚀</h3>
+<p align="center"><img src="https://readme-typing-svg.herokuapp.com/?lines=README — Professional & Enhanced GitHub Profile
 
 <p align="center">
-  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMHFmbGJneDM3czhtenJlbHI5MHhobjhudWJlZDluZnloMmNkNHl2biZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3oKIPnAiaMCws8nOsE/giphy.gif" alt="Coding GIF" height="160"/>
+  <img src="https://readme-typing-svg.herokuapp.com/?lines=Fabio+GUERREIRO+MARQUES;Data+Manager+%7C+Software+Developer&font=Fira+Code&center=true&width=700&height=70" />
+</p>
+<h3 align="center">Data Manager at CND • Software Developer</h3>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Illuminatyon/Illuminatyon/main/assets/terminal-typing.gif" height="220" alt="Terminal animation"/>
 </p>
 
 ---
 
-## 🙋‍♂️ À propos de moi
+## <img src="https://readme-typing-svg.herokuapp.com/?lines=Clean+Data,+Clean+Architecture;Building+Meaningful+Systems&font=Fira+Code&width=500&height=40" />
 
-- 🔎 Je m'appelle **Fabio GUERREIRO MARQUES**
-- 💼 **Gestionnaire de Données** à la CND
-- 👨‍💻 Développeur passionné, toujours avide d'apprendre et de partager mes connaissances
-- 🌍 Basé en France
+> "Clean data, clean architecture, clean thinking — that is how great systems are built." — Fabio G.M.
+
+I am **Fabio GUERREIRO MARQUES**, a Data Manager at the CND and a passionate developer focused on building efficient, structured, and meaningful digital solutions. I enjoy exploring modern technologies, understanding how systems operate behind the scenes, and transforming ideas into working applications.
+
+I value clarity, reliability, and continuous learning. Whether working with databases, backend logic, or UI frameworks, I am committed to writing software that is maintainable, scalable, and thoughtfully designed.
+
+I am particularly interested in:
+- Data engineering and reliability
+- Software architecture and design patterns
+- UI/UX logic and interactive components
+- Automation, tooling, and productivity workflows
 
 ---
 
-## 🚀 Mes stacks, langages et outils
+# <img src="https://readme-typing-svg.herokuapp.com/?lines=Skills+%26+Technologies&font=Fira+Code&width=400&height=35" />
 
 <p align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="32" alt="JavaScript"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" height="32" alt="TypeScript"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" height="32" alt="React"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg" height="32" alt="Vue.js"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="32" alt="HTML5"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" height="32" alt="CSS3"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="32" alt="Python"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" height="32" alt="Java"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" height="32" alt="C"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" height="32" alt="PHP"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" height="32" alt="Node.js"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" height="32" alt="MySQL"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" height="32" alt="PostgreSQL"/>
-  <img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" height="32" alt="SQLite"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/oracle/oracle-original.svg" height="32" alt="Oracle"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" height="32" alt="Docker"/>
-  <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" height="32" alt="Git"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="32" alt="GitHub"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" height="32" alt="Linux"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ubuntu/ubuntu-plain.svg" height="32" alt="Ubuntu"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/latex/latex-original.svg" height="32" alt="LaTeX"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/trello/trello-plain.svg" height="32" alt="Trello"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg" height="32" alt="IntelliJ"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/phpstorm/phpstorm-original.svg" height="32" alt="PhpStorm"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pycharm/pycharm-original.svg" height="32" alt="PyCharm"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webstorm/webstorm-original.svg" height="32" alt="WebStorm"/>
-  <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" height="32" alt="Arduino"/>
+  <img src="https://skillicons.dev/icons?i=js,ts,react,vue,html,css,py,java,c,php,nodejs,mysql,postgres,sqlite,oracle,docker,git,github,linux,ubuntu,latex,arduino&perline=10" />
 </p>
 
 ---
 
-## 📊 Mes statistiques GitHub
+# GitHub Widgets & Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Illuminatyon&show_icons=true&theme=codeSTACKr&locale=fr&hide_border=false" height="180" alt="GitHub Stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=Illuminatyon&layout=compact&langs_count=8&theme=codeSTACKr&hide_border=false&locale=fr" height="180" alt="Top Langs"/>
+  <img src="https://visitor-badge.glitch.me/badge?page_id=Illuminatyon.Illuminatyon" />
+</p>
+
+### Contribution Snake
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" />
+</p>
+
+### Activity Graph
+
+<p align="center">
+  <img src="https://spotify-github-profile.vercel.app/api/spotify?background_color=0d1117&border_color=ffffff" height="120" />
+</p>
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?Illuminatyon=Illuminatyon&theme=react-dark&hide_border=true&area=true" />
 </p>
 
 ---
 
-## 🔗 Me retrouver ailleurs
-
+# Featured Repositories
 <p align="center">
-  <a href="https://discord.com/users/illluminationn" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=&color=7289DA&logoColor=white&labelColor=&style=for-the-badge" height="32" alt="Discord"/>
-  </a>
-  <a href="https://www.linkedin.com/in/fabio-guerreiro-marques-16a442272/" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge" height="32" alt="LinkedIn"/>
-  </a>
+  <img src="https://github-readme-stats.vercel.app/api/pin/?username=Illuminatyon&repo=repository-name" />
 </p>
 
----
-
+# Coding Activity
 <p align="center">
-  <strong>Merci de votre visite et au plaisir d'échanger ! 😊</strong>
+  <img src="https://github-readme-stats.vercel.app/api/wakatime?username=Illuminatyon&layout=compact" />
 </p>
+&font=Fira+Code&center=true&width=600&height=60" /></p>
