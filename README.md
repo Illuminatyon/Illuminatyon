@@ -24,7 +24,7 @@
 
 <!-- WIDGET : compteur de visiteurs à tubes Nixie (Moe Counter) -->
 <sub><b>VOUS ÊTES LE VISITEUR N°</b></sub><br>
-<img src="https://count.getloli.com/@TON_PSEUDO?name=TON_PSEUDO&theme=nixietube-1&padding=7&offset=0&align=center&scale=1&pixelated=1&darkmode=auto" alt="Compteur de visiteurs" />
+<img src="https://count.getloli.com/@TON_PSEUDO?name=Illumination&theme=nixietube-1&padding=7&offset=0&align=center&scale=1&pixelated=1&darkmode=auto" alt="Compteur de visiteurs" />
 
 <br><br>
 
