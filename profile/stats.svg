@@ -8,12 +8,12 @@
         role="img"
         aria-labelledby="descId"
       >
-        <title id="titleId">STATS.EXE, Rank: C+</title>
-        <desc id="descId">Total d&#39;&#233;toiles: 17, Total des Commits  (L&#39;ann&#233;e derni&#232;re) : 123, Total des PRs: 20, Nombre total d&#39;incidents: 2, Contribu&#233; &#224; (l&#39;ann&#233;e derni&#232;re): 4</desc>
+        <title id="titleId">Statistiques GitHub de Fabio Guerreiro-Marques, Rank: C+</title>
+        <desc id="descId">Total d&#39;&#233;toiles: 17, Total des Commits  (L&#39;ann&#233;e derni&#232;re) : 124, Total des PRs: 20, Nombre total d&#39;incidents: 2, Contribu&#233; &#224; (l&#39;ann&#233;e derni&#232;re): 4</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
-            fill: #8B5CF6;
+            fill: #2F54EB;
             animation: fadeInAnimation 0.8s ease-in-out forwards;
           }
           @supports(-moz-appearance: auto) {
@@ -22,7 +22,7 @@
           }
           
     .stat {
-      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #F2F1F5;
+      font: 600 14px 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif; fill: #141414;
     }
     @supports(-moz-appearance: auto) {
       /* Selector detects Firefox */
@@ -33,7 +33,7 @@
       animation: fadeInAnimation 0.3s ease-in-out forwards;
     }
     .rank-text {
-      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #F2F1F5;
+      font: 800 24px 'Segoe UI', Ubuntu, Sans-Serif; fill: #141414;
       animation: scaleInAnimation 0.3s ease-in-out forwards;
     }
     .rank-percentile-header {
@@ -46,18 +46,18 @@
     .not_bold { font-weight: 400 }
     .bold { font-weight: 700 }
     .icon {
-      fill: #8B5CF6;
+      fill: #2F54EB;
       display: block;
     }
 
     .rank-circle-rim {
-      stroke: #8B5CF6;
+      stroke: #2F54EB;
       fill: none;
       stroke-width: 6;
       opacity: 0.2;
     }
     .rank-circle {
-      stroke: #8B5CF6;
+      stroke: #2F54EB;
       stroke-dasharray: 250;
       fill: none;
       stroke-width: 6;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 190.65226278433587;
+        stroke-dashoffset: 190.5697985971037;
       }
     }
   
@@ -116,9 +116,9 @@
           y="0.5"
           rx="0"
           height="99%"
-          stroke="#8B5CF6"
+          stroke="#141414"
           width="466"
-          fill="#0B0B0D"
+          fill="#F1EBDD"
           stroke-opacity="1"
         />
 
@@ -133,7 +133,7 @@
         y="0"
         class="header"
         data-testid="header"
-      >STATS.EXE</text>
+      >Statistiques GitHub de Fabio Guerreiro-Marques</text>
     </g>
       </g>
     
@@ -184,7 +184,7 @@
         x="274.01"
         y="12.5"
         data-testid="commits"
-      >123</text>
+      >124</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
