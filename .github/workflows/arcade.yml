@@ -1,4 +1,4 @@
-# Transforme le graphe de contributions en Pac-Man et en Démineur animés.
+# Transforme le graphe de contributions en Pac-Man animé.
 # Les SVG sont poussés sur la branche "output", que le README va chercher.
 name: Salle d'arcade
 
@@ -24,7 +24,7 @@ jobs:
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
-          games: "pacman,minesweeper"
+          games: "pacman"
 
       - name: Pousser les SVG sur la branche output
         uses: crazy-max/ghaction-github-pages@v3.1.0

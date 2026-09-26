@@ -1,4 +1,4 @@
-# Génère les cartes de stats (stats, langages, série) dans le dossier profile/
+# Génère les cartes de statistiques dans profile/, aux couleurs du bandeau.
 # Tourne chaque nuit, et peut être lancé à la main depuis l'onglet Actions.
 name: Mise à jour des cartes
 
@@ -23,7 +23,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: "username=${{ github.repository_owner }}&show_icons=true&locale=fr&custom_title=STATS.EXE&bg_color=0B0B0D&title_color=8B5CF6&text_color=F2F1F5&icon_color=8B5CF6&ring_color=8B5CF6&border_color=8B5CF6&border_radius=0"
+          options: "username=${{ github.repository_owner }}&show_icons=true&hide_rank=false&locale=fr&bg_color=F1EBDD&title_color=2F54EB&text_color=141414&icon_color=2F54EB&ring_color=2F54EB&border_color=141414&border_radius=0"
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -31,14 +31,14 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: "username=${{ github.repository_owner }}&layout=compact&langs_count=8&locale=fr&custom_title=LANGAGES.DLL&bg_color=0B0B0D&title_color=8B5CF6&text_color=F2F1F5&border_color=8B5CF6&border_radius=0"
+          options: "username=${{ github.repository_owner }}&layout=compact&langs_count=8&locale=fr&bg_color=F1EBDD&title_color=2F54EB&text_color=141414&border_color=141414&border_radius=0"
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Carte de la série de contributions
         uses: DenverCoder1/github-readme-streak-stats@main
         with:
-          options: "user=${{ github.repository_owner }}&locale=fr&background=0B0B0D&border=8B5CF6&stroke=8B5CF6&ring=8B5CF6&fire=C4B5FD&currStreakNum=F2F1F5&sideNums=F2F1F5&currStreakLabel=8B5CF6&sideLabels=9C9AA6&dates=9C9AA6&border_radius=0"
+          options: "user=${{ github.repository_owner }}&locale=fr&background=F1EBDD&border=141414&stroke=141414&ring=2F54EB&fire=2F54EB&currStreakNum=141414&sideNums=141414&currStreakLabel=2F54EB&sideLabels=6B6457&dates=6B6457&border_radius=0"
           path: profile/streak.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
