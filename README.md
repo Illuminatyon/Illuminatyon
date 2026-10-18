@@ -16,7 +16,7 @@
   </a>
 </p>
 
----
+<p align="center"><code>░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░</code></p>
 
 ### `> whoami`
 
@@ -26,40 +26,39 @@ fabio — computer science student (bachelor)
 
 $ cat focus.txt
 full-stack web development
-devops & cloud
 
 $ echo $LANGUAGES
 JavaScript TypeScript Python Java PHP C
 ```
 
----
+<p align="center"><code>░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░</code></p>
 
 ### `> ls ~/stack`
 
 <table align="center">
   <tr>
-    <td align="center" width="140"><b>languages</b></td>
+    <td align="center" width="170"><code>[ languages ]</code></td>
     <td><img src="https://skillicons.dev/icons?i=js,ts,python,java,php,c,bash&theme=dark" alt="Languages" /></td>
   </tr>
   <tr>
-    <td align="center"><b>frontend</b></td>
+    <td align="center"><code>[ frontend ]</code></td>
     <td><img src="https://skillicons.dev/icons?i=react,angular,vue,nextjs,html,css,tailwind&theme=dark" alt="Frontend" /></td>
   </tr>
   <tr>
-    <td align="center"><b>backend</b></td>
+    <td align="center"><code>[ backend ]</code></td>
     <td><img src="https://skillicons.dev/icons?i=nodejs,nestjs,flask&theme=dark" alt="Backend" /></td>
   </tr>
   <tr>
-    <td align="center"><b>databases</b></td>
+    <td align="center"><code>[ databases ]</code></td>
     <td><img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,sqlite&theme=dark" alt="Databases" /></td>
   </tr>
   <tr>
-    <td align="center"><b>devops</b></td>
-    <td><img src="https://skillicons.dev/icons?i=docker,kubernetes,nginx,linux,git&theme=dark" alt="DevOps" /></td>
+    <td align="center"><code>[ tools ]</code></td>
+    <td><img src="https://skillicons.dev/icons?i=git,linux,vscode,figma,vite&theme=dark" alt="Tools" /></td>
   </tr>
 </table>
 
----
+<p align="center"><code>░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒░</code></p>
 
 ### `> cat stats.log`
 
