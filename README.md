@@ -26,6 +26,7 @@ fabio — computer science student (bachelor)
 
 $ cat focus.txt
 full-stack web development
+devops & cloud
 
 $ echo $LANGUAGES
 JavaScript TypeScript Python Java PHP C
@@ -53,8 +54,12 @@ JavaScript TypeScript Python Java PHP C
     <td><img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,sqlite&theme=dark" alt="Databases" /></td>
   </tr>
   <tr>
+    <td align="center"><code>[ devops & cloud ]</code></td>
+    <td><img src="https://skillicons.dev/icons?i=docker,kubernetes,nginx,linux&theme=dark" alt="DevOps & Cloud" /></td>
+  </tr>
+  <tr>
     <td align="center"><code>[ tools ]</code></td>
-    <td><img src="https://skillicons.dev/icons?i=git,linux,vscode,figma,vite&theme=dark" alt="Tools" /></td>
+    <td><img src="https://skillicons.dev/icons?i=git,vscode,figma,vite&theme=dark" alt="Tools" /></td>
   </tr>
 </table>
 
